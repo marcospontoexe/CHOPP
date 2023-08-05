@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* estilo para versão Mobile First */
+
+
+
+*{      /* siguinifica todos elementos (h1, h2, h3...h8, p, main, footer...) */
+    margin: 0px;        /* elimina a margem de todos os elementos*/
+    padding: 0px;       /* elimina o pad de todos os elementos*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    box-sizing: border-box;     /*inclui a borda no calculo do tamanho*/
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(109, 115, 119);
+    background-image: url('../imagens/chopp.jpg');     
+    background-position: center center;         /* faz uma âncora da imagem no centro da tela*/
+    background-repeat: no-repeat;
+    background-size: cover;          /* faz a imagem ocupar 100% da viewport*/
+    /*
+    background-position-y: -45px;
+    
+    background-position-x: -50px;
+    */
+    
+
+    
+
+    
+}
+
+h1, p{
+    text-align: center;
+}
+
+p{
+    }
+
+
+
+header{
+    color: rgba(212, 212, 212, 0.747);
+   
+}
+
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    text-shadow: 2px 2px 2px rgba(58, 58, 58, 0.692);          /*cria uma sombra no texto*/
+}
+
+main p{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7em;
+    text-shadow: 2px 2px 2px rgba(58, 58, 58, 0.692);          /*cria uma sombra no texto*/
+
+    left: 50%;              
+    top: 80%;             
+    transform: translate(-50%, -50%);
+}
+
+section{
+    position: absolute;
+    background-color: rgb(0, 0, 0);    
+    border-radius: 30px;
+    
+    overflow: hidden;   
+    left: 50%;              
+    top: 60%;             
+    transform: translate(-50%, -50%);   
+    
+}
+
+
+
+div{
+    
+}
+
+div h1{
+    /*
+    text-align: left;     /* alinhamento horizontal*
+    vertical-align: top;    /* alinhamento vertical*
+    font-size: 30%;            /* a fonte se adapta à largura da viewport*
+    */
+}
+
+div a{
+    /*
+    text-align: left;     /* alinhamento horizontal*
+    vertical-align: bottom;    /* alinhamento vertical*
+    font-size: 30%;            /* a fonte se adapta à largura da viewport*/
+    
+        
+}
+
+div a img{
+    width: 100%;
+    margin: auto;
+    
+}
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 4px;
+    margin: 0px;
+    text-align: center;
+    position: fixed; 
+    width: 100%;
+    bottom: 0px;
+    
+}
+
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+#print{    display: none;  }    /*desabilita a box*/
+#phone{    display: block;  }
+#tablet{    display: none;  }
+#pc{    display: none;  }
+#tv{    display: none;  }
+
+
+
