@@ -85,12 +85,14 @@ div a{
     vertical-align: bottom;    /* alinhamento vertical*
     font-size: 30%;            /* a fonte se adapta à largura da viewport*/
     
-        
+
 }
 
-div a img{
+a img{
     width: 100%;
     margin: auto;
+    margin-top: 10px;            
+     
     
 }
 
